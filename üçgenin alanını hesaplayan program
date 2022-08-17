@@ -1,0 +1,20 @@
+# -genin-alan-n-hesaplayan-program
+import util.java.Scanner
+
+public class main{
+    public static void main(string[] args){
+    
+ int taban , yükseklik;
+ double alan;
+ 
+ Scanner inp = new Scanner(System.in);
+ 
+ System.out.print("taban giriniz");
+ taban = inp.nextInt();
+ 
+ System.out.print("yükseklik giriniz");
+ yükseklik = inp.nextInp();
+ 
+ alan = (taban*yükseklik)/2
+ 
+ System.out.println("alan:" + alan);
